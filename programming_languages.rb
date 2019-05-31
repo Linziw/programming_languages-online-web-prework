@@ -35,15 +35,17 @@ languages = {
 
 
 
-def reformat_languages(languages)
+begin def reformat_languages(languages)
   new_hash = {}
-  languages.each do |style, language|
-    language.each do |name, type|
-      new_hash[name]=type
-      new_hash[name][:style]=[style]
-   
- end
- end
- new_hash
- end
+  languages.each do |oo_or_f, name|
+    binding.pry
+  end
+end
+ 
+
+ 
+
+ 
+ 
+ 
 
