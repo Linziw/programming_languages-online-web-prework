@@ -41,7 +41,7 @@ def reformat_languages(languages)
     language_hash.each do |name, type_hash|
       new_hash[name]=type_hash
       new_hash[name][:style]=[oo_or_f]
-      binding.pry
+
       
   end
 end
