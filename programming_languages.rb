@@ -38,6 +38,7 @@ languages = {
 def reformat_languages(languages)
   languages.each do |oo_or_f, language_hash|
     language_hash.each do |name, type_hash|
+      language[name]=type_hash
       binding.pry
   end
 end
